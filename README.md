@@ -23,12 +23,6 @@ cd autoreqs
 Run the script with the folder path containing your Python files as an argument:
 
 ```bash
-python3 autoreqs.py /path/to/your/folder
-```
-
-### Example
-
-```bash
 python3 autoreqs.py ./my_project_folder/
 ```
 
@@ -39,7 +33,7 @@ This command will scan the `my_project_folder` for `.py` and `.ipynb` files, ext
 AutoReqs creates a log file named `autoreqs.log` in the project directory. The log file contains detailed information about the scanning and comparison processes, including any errors encountered.
 
 ## Contributing
-Feel free to fork the repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
+Please feel free to fix the repository and submit pull requests. For major changes, please open an issue first to discuss what you want to change.
 
 ## License
 This project is licensed under the MIT License. If you have any questions, feel free to contact me.
